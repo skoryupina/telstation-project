@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="telstation - @localhost" uuid="a59665ba-197a-409f-b937-5a0efb674513">
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>postgres</user-name>
+      <schema-pattern>*.pg_catalog *.public</schema-pattern>
+      <default-schemas>*.pg_catalog *.public</default-schemas>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,122 @@
+body
+{
+    font-family: Tahoma;
+    color:#331a08;
+}
+
+table
+{
+    font-size: 12pt;
+}
+.cont
+{
+    background-color: #e1e0e9;
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+    width: 500px;
+}
+
+.found
+{
+    background: white; /* Цвет фона ячеек */
+    padding: 5px; /* Поля вокруг текста */
+}
+
+button{
+    height: 100px;
+    width: 328px;
+    margin: 0;
+    padding:0;
+    border: 0;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.city:hover
+{
+    background-image: url(../images/city_button_2.jpg);
+}
+
+.city
+{
+    background-image: url(../images/city_button_1.jpg);
+}
+
+.addr
+{
+    background-image: url(../images/addr_button_1.jpg);
+}
+
+.addr:hover
+{
+    background-image: url(../images/addr_button_2.jpg);
+}
+
+.sub
+{
+    background-image: url(../images/abon_button_1.jpg);
+}
+
+.sub:hover
+{
+    background-image: url(../images/abon_button_2.jpg);
+}
+
+.add
+{
+    background-image: url(../images/add_button_1.jpg);
+    height: 31px;
+    width: 100px;
+}
+
+.add:hover
+{
+    background-image: url(../images/add_button_2.jpg);
+}
+
+.edit
+{
+    background-image: url(../images/change_button_1.jpg);
+    height: 31px;
+    width: 100px;
+}
+
+.edit:hover
+{
+    background-image: url(../images/change_button_2.jpg);
+}
+
+.del
+{
+    background-image: url(../images/Delete_button_1.jpg);
+    height: 31px;
+    width: 100px;
+}
+
+.del:hover
+{
+    background-image: url(../images/Delete_button_2.jpg);
+}
+
+.srch
+{
+    background-color: #265202;
+    height: 31px;
+    width: 100px;
+    color: white;
+}
+
+.srch:hover
+{
+    background-color: #cbff9d;
+    color: #4e2506;
+}
+
+a:hover
+{
+    color: green;
+}
+
+a:active
+{
+    color:blue;
+}

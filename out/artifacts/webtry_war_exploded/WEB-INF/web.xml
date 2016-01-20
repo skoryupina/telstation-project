@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <!-- Стартовая страничка -->
+    <welcome-file-list>
+        <welcome-file>/index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <!-- Маппинг сервлетов "Город" -->
+    <servlet>
+        <servlet-name>CityTable</servlet-name>
+        <servlet-class>myservlets.cityservlets.CityTable</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CityTable</servlet-name>
+        <url-pattern>/city.view</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CityInsert</servlet-name>
+        <servlet-class>myservlets.cityservlets.CityInsert</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CityInsert</servlet-name>
+        <url-pattern>/city.insert</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CityUpdate</servlet-name>
+        <servlet-class>myservlets.cityservlets.CityUpdate</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CityUpdate</servlet-name>
+        <url-pattern>/city.update</url-pattern>
+    </servlet-mapping>
+
+    <!-- Маппинг сервлетов "Адрес"-->
+    <servlet>
+        <servlet-name>AddressTable</servlet-name>
+        <servlet-class>myservlets.addresservlets.AddressTable</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddressTable</servlet-name>
+        <url-pattern>/address.view</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddressInsert</servlet-name>
+        <servlet-class>myservlets.addresservlets.AddressInsert</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddressInsert</servlet-name>
+        <url-pattern>/address.insert</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddressUpdate</servlet-name>
+        <servlet-class>myservlets.addresservlets.AddressUpdate</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddressUpdate</servlet-name>
+        <url-pattern>/address.update</url-pattern>
+    </servlet-mapping>
+
+    <!-- Маппинг сервлетов "Абонент"-->
+    <servlet>
+        <servlet-name>SubTable</servlet-name>
+        <servlet-class>myservlets.subservlets.SubTable</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SubTable</servlet-name>
+        <url-pattern>/sub.view</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SubInsert</servlet-name>
+        <servlet-class>myservlets.subservlets.SubInsert</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SubInsert</servlet-name>
+        <url-pattern>/sub.insert</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SubUpdate</servlet-name>
+        <servlet-class>myservlets.subservlets.SubUpdate</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SubUpdate</servlet-name>
+        <url-pattern>/sub.update</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
